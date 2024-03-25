@@ -27,6 +27,7 @@ class ClickConsumers(AsyncWebsocketConsumer):
     
     async def save_click(self):
         self.user.score += (1 * self.user.ship_upgrade)
+        self.user.money += (10 * self.user.ship_upgrade)
         self.user.asave()
         return self.user.score
     
