@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+ @keyframes slide-top{0%{transform:translateY(-40px)}100%{transform:translateY(-100px)}}
+ @keyframes slide-top-mario{0%{transform:translateY(-30px)}100%{transform:translateY(-10px)}}
+ @keyframes slide-top-block{0%{transform:translateY(-10px)}100%{transform:translateY(-40px)}}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
