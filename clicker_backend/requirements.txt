@@ -1,5 +1,0 @@
-django
-channels[daphne]
-djangorestframework
-django-cors-headers
-djangorestframework-simplejwt
